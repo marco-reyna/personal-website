@@ -15,12 +15,15 @@ function SectionThree() {
         </div>
         <div>
           <p className={classes.text}>
-            I've worked with Vue for 3 years and started using React recently.
+            I've worked with <span>Vue for 3 years and started using React recently.</span>
             In the future I want to deepen my knowledge in backend
             to become a Full Stack Developer. 
           </p>
         </div>
       </div>
+      <button className={classes.btn}>
+        See Resume &#62;
+      </button>
     </div>
   )
 }
