@@ -5,6 +5,7 @@
   padding-top: 10%;
   padding-bottom: 10%;
   text-align: center;
+  background-color: #131313;
 }
 
 .box {
@@ -20,7 +21,7 @@
 .text {
   font-size: clamp(1rem, 3.5vw, 3rem);
   font-family: 'Rubik Mono One', sans-serif;
-  color: white;
+  color: #efeeee;
   text-align: left;
 }
 
@@ -35,7 +36,7 @@
   background: none;
   border: none;
   text-decoration: underline;
-  color: white;
+  color: #efeeee;
   cursor: pointer;
 }
 
