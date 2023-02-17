@@ -6,6 +6,7 @@ import SectionFour from './components/Section04/SectionFour';
 import SectionFive from './components/Section05/SectionFive';
 // import SectionParallax from './components/Section05/SectionParallax';
 import SectionContact from './components/SectionContact/SectionContact';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <SectionFive />
       {/* <SectionParallax /> */}
       <SectionContact />
+      <Footer />
     </>
   )
 }

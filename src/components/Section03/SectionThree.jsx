@@ -21,9 +21,9 @@ function SectionThree() {
           </p>
         </div>
       </div>
-      <button className={classes.btn}>
-        See Resume &#62;
-      </button>
+      <a className={classes.btn} href="../../assets/CV_Marco_Reyna-Frontend_Developer.pdf" download="CV_Marco_Reyna-Frontend_Developer.pdf">
+        Get Resume &#62;
+      </a>
     </div>
   )
 }

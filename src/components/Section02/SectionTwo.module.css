@@ -1,9 +1,9 @@
 .container {
   width: 100%;
-  height: 100%;
+  height: auto;
   position: relative;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   background-color: #131313;
 }
 
@@ -19,6 +19,7 @@
   font-size: clamp(1rem, 3.5vw, 3rem);
   font-family: 'Rubik Mono One', sans-serif;
   color: #efeeee;
+  user-select: none;
 }
 
 .right {

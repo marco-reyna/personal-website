@@ -1,30 +1,33 @@
 .container {
   width: 100%;
   height: 100%;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   background-color: #131313;
 }
 
 .box {
   height: auto;
-  max-width: 730px;
+  width: fit-content;
   margin: 5% auto;
   padding-left: 2%;
   padding-right: 2%;
+  text-align: center;
 }
 
 .text {
   font-size: clamp(1rem, 3.5vw, 3rem);
   font-family: 'Rubik Mono One', sans-serif;
   color: #efeeee;
+  user-select: none;
 }
 
-.right {
-  text-align: right;
+.icon {
+  color: #efeeee;
+  transition: .3s all;
 }
 
-.hr {
-  margin-top: 3%;
-  margin-bottom: 3%;
+.icon:hover {
+  color: #ffd230;
+  cursor: pointer;
 }

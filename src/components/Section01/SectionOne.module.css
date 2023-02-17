@@ -19,6 +19,7 @@
   font-family: 'Lexend Deca', sans-serif;
   color: #efeeee;
   margin-bottom: -18%;
+  user-select: none;
 }
 
 .lastName {
@@ -35,6 +36,7 @@
   background-size: 130%;
 
   animation: bg-animation 70s cubic-bezier(0.3,0,0.7,1) infinite;
+  user-select: none;
 }
 
 @keyframes bg-animation {
@@ -48,6 +50,7 @@
   font-family: 'Rubik Mono One', sans-serif;
   color: #efeeee;
   margin-left: 1.5%;
+  user-select: none;
 }
 
 .icon {
