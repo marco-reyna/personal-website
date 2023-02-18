@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './SectionThree.module.css';
+import Cv from '../../assets/CV_Marco_Reyna-Frontend_Developer.pdf';
 
 function SectionThree() {
 
@@ -21,8 +22,8 @@ function SectionThree() {
           </p>
         </div>
       </div>
-      <a className={classes.btn} href="../../assets/CV_Marco_Reyna-Frontend_Developer.pdf" download="CV_Marco_Reyna-Frontend_Developer.pdf">
-        Get Resume &#62;
+      <a className={classes.btn} href={Cv} target="_blank">
+        Resume &#62;
       </a>
     </div>
   )

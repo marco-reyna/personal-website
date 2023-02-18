@@ -9,7 +9,7 @@ function SectionTwo() {
         <p className={`${classes.text} ${classes.right}`}>Hey There, Welcome To My Site.</p>
         <hr className={classes.hr}/>
         <p className={classes.text}>
-          I Have Created This Space To Put In Practice My Web Development Skills
+          I Have Created This Space To Put In Practice My Skills
           And Easily Share My Professional Profile With Recruiters
           And Companies.
         </p>

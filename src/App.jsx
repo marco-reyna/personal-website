@@ -5,6 +5,7 @@ import SectionThree from './components/Section03/SectionThree';
 import SectionFour from './components/Section04/SectionFour';
 import SectionFive from './components/Section05/SectionFive';
 // import SectionParallax from './components/Section05/SectionParallax';
+import SectionSix from './components/Section06/SectionSix';
 import SectionContact from './components/SectionContact/SectionContact';
 import Footer from './components/Footer';
 
@@ -18,6 +19,7 @@ function App() {
       <SectionFour />
       <SectionFive />
       {/* <SectionParallax /> */}
+      <SectionSix />
       <SectionContact />
       <Footer />
     </>
