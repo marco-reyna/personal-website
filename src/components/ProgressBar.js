@@ -7,7 +7,7 @@ const ProgressBar = styled.div`
     #ffd230 ${props => props.scrolling},
     transparent  0);
   width: 100%;
-  height: 4px;
+  height: 2px;
   z-index: 3;
 `;
 
