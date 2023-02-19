@@ -5,7 +5,7 @@ import Cv from '../../assets/CV_Marco_Reyna-Frontend_Developer.pdf';
 function SectionThree() {
 
   return (
-    <div className={classes.container}>
+    <div className={classes.container} id="section-3">
       <div className={classes.box}>
         <div>
           <p className={`${classes.text} ${classes.right}`}>
@@ -16,7 +16,7 @@ function SectionThree() {
         </div>
         <div>
           <p className={classes.text}>
-            I've worked with <span>Vue for 3 years and started using React recently.</span>
+            I've worked with <span>Vue for 3 years and started using React recently. </span>
             In the future I want to deepen my knowledge in backend
             to become a Full Stack Developer. 
           </p>

@@ -2,12 +2,13 @@ import styled from 'styled-components';
 
 const ProgressBar = styled.div`
   position: fixed;
+  right: 0;
   background: linear-gradient(
-    to right,
+    to bottom,
     #ffd230 ${props => props.scrolling},
     transparent  0);
-  width: 100%;
-  height: 2px;
+  width: 5px;
+  height: 100%;
   z-index: 3;
 `;
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import ProgressBar from './components/ProgressBar';
+import SideBar from './components/SideBar/SideBar';
 import SectionOne from './components/Section01/SectionOne';
 import SectionTwo from './components/Section02/SectionTwo';
 import SectionThree from './components/Section03/SectionThree';
@@ -16,6 +17,7 @@ function App() {
   return (
     <>
       <ProgressBar scrolling={scrolling + '%'}/>
+      <SideBar />
       <SectionOne />
       <SectionTwo />
       <SectionThree />

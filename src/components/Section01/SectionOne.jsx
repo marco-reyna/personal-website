@@ -6,7 +6,7 @@ import Zoom from '@mui/material/Zoom';
 function SectionOne() {
 
   return (
-    <div className={classes.container}>
+    <div className={classes.container} id="section-1">
       <div className={classes.nameBox}>
         <div className={classes.firstName}>Marco</div>
         <div className={classes.lastName}>Reyna</div>

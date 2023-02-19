@@ -7,7 +7,7 @@ import Cv from '../../assets/CV_Marco_Reyna-Frontend_Developer.pdf';
 function SectionContact() {
 
   return (
-    <div className={classes.container}>
+    <div className={classes.container} id="section-contact">
       <div className={classes.box}>
         <p className={classes.text}>Get in touch:</p>
         <div>

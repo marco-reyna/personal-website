@@ -1,0 +1,25 @@
+.container {
+  position: fixed;
+  top: 50%;
+  right: 3%;
+  z-index: 50;
+
+  font-size: clamp(0.4rem, 1vw, 1.5rem);
+  text-transform: lowercase;
+  letter-spacing: 1.2px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: #efeeee;
+  mix-blend-mode: difference;
+  text-align: right;
+}
+
+.container a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container a:hover {
+  cursor: pointer;
+  /* color: #ffd230; */
+  text-transform: uppercase;
+}

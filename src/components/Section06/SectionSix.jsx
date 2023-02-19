@@ -4,7 +4,7 @@ import classes from './SectionSix.module.css';
 function SectionSix() {
 
   return (
-    <div className={classes.container}>
+    <div className={classes.container} id="section-6">
       <div className={classes.box}>
         <div className={classes.title}>
           Let's talk

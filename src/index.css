@@ -7,6 +7,9 @@ body {
   background: #131313;
   background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
 }
+html {
+	scroll-behavior: smooth;
+}
 footer {
   position: static;
   text-align: center;
@@ -18,9 +21,10 @@ footer {
 footer p {
   color: #efeeee8d;
   font-family: 'Lexend Deca', sans-serif;
-  text-transform: uppercase;
+  text-transform: lowercase;
   letter-spacing: 1px;
   font-size: 11px;
+  user-select: none;
 }
 /* hide scrollbar */
 ::-webkit-scrollbar {
