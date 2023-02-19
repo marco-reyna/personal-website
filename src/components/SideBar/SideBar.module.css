@@ -4,13 +4,16 @@
   right: 3%;
   z-index: 50;
 
-  font-size: clamp(0.4rem, 1vw, 1.5rem);
+  font-size: clamp(1rem, 1vw, 1.5rem);
   text-transform: lowercase;
   letter-spacing: 1.2px;
   font-family: 'Lexend Deca', sans-serif;
   color: #efeeee;
   mix-blend-mode: difference;
   text-align: right;
+
+  border-right: 2px solid #efeeee;
+  padding-right: 0.2vw;
 }
 
 .container a {
@@ -22,4 +25,23 @@
   cursor: pointer;
   /* color: #ffd230; */
   text-transform: uppercase;
+}
+
+@media (max-width: 1470px) {
+
+  .container {
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    border-right: none;
+    background: #131313;
+    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+    background-size: 25%;
+    color: #ffd230;
+    mix-blend-mode: unset;
+  }
 }

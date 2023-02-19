@@ -9,9 +9,9 @@ function SectionContact() {
   return (
     <div className={classes.container} id="section-contact">
       <div className={classes.box}>
-        <p className={classes.text}>Get in touch:</p>
+        <p className={classes.text}>Get in touch</p>
         <div>
-          <a href="https://www.linkedin.com/in/marcoreynarinaldi/" className={classes.icon}>
+          <a href="https://www.linkedin.com/in/marcoreynarinaldi/" target="_blank" className={classes.icon}>
             <LinkedInIcon sx={{ fontSize: "10vh" }}/>
           </a>
           <a href="mailto:marcoreynarinaldi@gmail.com" className={classes.icon}>

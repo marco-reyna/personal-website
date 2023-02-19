@@ -9,7 +9,7 @@
 .box {
   height: auto;
   max-width: 1200px;
-  margin: 5% auto;
+  margin: 4% auto;
   padding-left: 2%;
   padding-right: 2%;
   text-align: left;
@@ -40,4 +40,36 @@
 
 .box p:nth-child(2), p:nth-child(4) {
   text-align: right;
+}
+
+.title2 {
+  font-size: clamp(1rem, 1.5vw, 2.5rem);
+  font-family: 'Rubik Mono One', sans-serif;
+  user-select: none;
+  padding-bottom: 2rem;
+}
+
+.hobbies span {
+  color: #ffd230;
+  font-size: clamp(1rem, 3.5vw, 3rem);
+  background-color: #ffd230;
+  font-family: 'Lexend Deca', sans-serif;
+  margin-right: 12px;
+  transition: .2s all;
+  user-select: none;
+}
+
+.container:hover .hobbies span {
+  filter: blur(3px);
+  opacity: .5;
+  transform: scale(.98);
+  box-shadow: none;
+}
+
+.container:hover .hobbies span:hover{
+  color: #131313;
+  transform: scale(1);
+  filter: blur(0px);
+  opacity: 1;
+  box-shadow: 0 8px 20px 0px rgba(0,0,0,0.125);
 }

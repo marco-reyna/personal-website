@@ -32,7 +32,7 @@
 .keywords {
   background-color: #ffd230;
   font-size: clamp(1rem, 3.5vw, 3rem);
-  color: #333;
+  color: #131313;
   display: block;
   overflow: hidden;
   position: absolute;

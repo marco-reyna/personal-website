@@ -34,6 +34,19 @@ function SectionSix() {
           backend development is on my To-Do list.
         </p>
       </div>
+      <div className={classes.box}>
+        <div className={classes.title2}>
+          And when I am not programming am:
+        </div>
+        <div className={classes.hobbies}>
+          <span>Producing music</span>
+          <span>DJing</span>
+          <span>Practicing Jiu-Jitsu</span>
+          <span>Snowboarding</span>
+          <span>Sailing</span>
+          <span>or just trying new activities.</span>
+        </div> 
+      </div>
     </div>
   )
 }

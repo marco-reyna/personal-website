@@ -60,3 +60,14 @@
   position: absolute;
   bottom: 2%;
 }
+
+@media (max-width: 767px) {
+  .nameBox {
+    left: 10%;
+    bottom: 50%;
+  }
+
+  .icon {
+    display: none;
+  }
+}

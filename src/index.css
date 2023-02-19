@@ -19,12 +19,12 @@ footer {
   background: #131313;
 }
 footer p {
-  color: #efeeee8d;
   font-family: 'Lexend Deca', sans-serif;
   text-transform: lowercase;
   letter-spacing: 1px;
   font-size: 11px;
   user-select: none;
+  color: #ffd230;
 }
 /* hide scrollbar */
 ::-webkit-scrollbar {
