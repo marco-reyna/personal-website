@@ -125,3 +125,80 @@
     left: 48%;
   }
 }
+
+@media (max-width: 767px) {
+
+  .container {
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
+
+  .keywords {
+    left: 56%;
+  }
+
+  @keyframes openclose {
+    0% {
+      top: 2%;
+      width: 0;
+    }
+    5% {
+      width: 0;
+    }
+    15% {
+      width: 28%;
+    }
+    30% {
+      top: 2%;
+      width: 28%;
+    }
+    33% {
+      top: 2%;
+      width: 0;
+    }
+    35% {
+      top: 2%;
+      width: 0;
+    }
+    38% {
+      top: -100%;
+    }
+    48% {
+      top: -100%;
+      width: 24%;
+    }
+    62% {
+      top: -100%;
+      width: 24%;
+    }
+    66% {
+      top: -100%;
+      width: 0;
+      text-indent: 0;
+    }
+    71% {
+      top: -200%;
+      width: 0;
+      text-indent: 5px;
+    }
+    86% {
+      top: -200%;
+      width: 26%;
+    }
+    95% {
+      top: -200%;
+      width: 26%;
+    }
+    98% {
+      top: -200%;
+      width: 0;
+      text-indent: 5px;
+    }
+    100% {
+      top: 0;
+      width: 0;
+      text-indent: 0;
+    }
+  }
+
+}

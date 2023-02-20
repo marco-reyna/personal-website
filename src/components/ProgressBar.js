@@ -9,7 +9,7 @@ const ProgressBar = styled.div`
     transparent  0);
   width: 5px;
   height: 100%;
-  z-index: 3;
+  z-index: 60;
 `;
 
 export default ProgressBar;

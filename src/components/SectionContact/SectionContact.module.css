@@ -47,3 +47,12 @@
 .btn:hover {
   color: #ffd230;
 }
+
+@media (max-width: 767px) {
+
+  .container {
+    padding-top: 25%;
+    padding-bottom: 25%;
+  }
+
+}

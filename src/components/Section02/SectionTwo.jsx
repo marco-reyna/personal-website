@@ -4,7 +4,7 @@ import classes from './SectionTwo.module.css';
 function SectionTwo() {
 
   return (
-    <div className={classes.container}>
+    <section className={classes.container}>
       <div className={classes.box}>
         <p className={`${classes.text} ${classes.right}`}>Hey There, Welcome To My Site.</p>
         <hr className={classes.hr}/>
@@ -14,7 +14,7 @@ function SectionTwo() {
           And Companies.
         </p>
       </div>
-    </div>
+    </section>
   )
 }
 

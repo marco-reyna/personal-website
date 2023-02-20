@@ -5,7 +5,7 @@ import Cv from '../../assets/CV_Marco_Reyna-Frontend_Developer.pdf';
 function SectionThree() {
 
   return (
-    <div className={classes.container} id="section-3">
+    <section className={classes.container} id="section-3">
       <div className={classes.box}>
         <div>
           <p className={`${classes.text} ${classes.right}`}>
@@ -25,7 +25,7 @@ function SectionThree() {
       <a className={classes.btn} href={Cv} target="_blank">
         Resume &#62;
       </a>
-    </div>
+    </section>
   )
 }
 

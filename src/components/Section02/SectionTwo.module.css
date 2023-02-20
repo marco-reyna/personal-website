@@ -30,3 +30,13 @@
   margin-top: 3%;
   margin-bottom: 3%;
 }
+
+@media (max-width: 767px) {
+  .container {
+    height: 100vh;
+  }
+
+  .right {
+    text-align: left;
+  }
+}

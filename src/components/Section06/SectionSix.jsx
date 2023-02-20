@@ -4,7 +4,7 @@ import classes from './SectionSix.module.css';
 function SectionSix() {
 
   return (
-    <div className={classes.container} id="section-6">
+    <section className={classes.container} id="section-6">
       <div className={classes.box}>
         <div className={classes.title}>
           Let's talk
@@ -30,13 +30,13 @@ function SectionSix() {
 
         <p>
           I see myself in the future developing a great professional path
-          amongst super talented people and getting knowledge about
+          amongst super talented people. Getting knowledge about
           backend development is on my To-Do list.
         </p>
       </div>
       <div className={classes.box}>
         <div className={classes.title2}>
-          And when I am not programming am:
+          And when I'm not programming I'm:
         </div>
         <div className={classes.hobbies}>
           <span>Producing music</span>
@@ -47,7 +47,7 @@ function SectionSix() {
           <span>or just trying new activities.</span>
         </div> 
       </div>
-    </div>
+    </section>
   )
 }
 

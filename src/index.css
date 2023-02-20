@@ -28,6 +28,7 @@ footer p {
 }
 /* hide scrollbar */
 ::-webkit-scrollbar {
-  width: 1px;
-  height: 1px;
+  width: 0px;
+  height: 0px;
+  -webkit-appearance: none;
 }

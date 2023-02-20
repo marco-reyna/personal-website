@@ -47,13 +47,13 @@ function SectionParallax() {
   ];
 
   return (
-    <div className={classes.container}>
+    <section className={classes.container}>
       <div className={classes.box}>
         {logos.map((logo) => {
           return <img className={classes.img} src={logo.value} key={logo.value} />
         })}
       </div>
-    </div>
+    </section>
   )
 }
 

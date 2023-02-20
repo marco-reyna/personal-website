@@ -25,16 +25,41 @@
   transition: .2s all;
 }
 
-.box:hover .img {
+.container:hover .box .img {
   filter:blur(3px);
   opacity:.5;
   transform: scale(.98);
   box-shadow:none;
 }
 
-.box:hover .img:hover{
+.container:hover .box .img:hover {
   transform:scale(1);
   filter:blur(0px);
   opacity:1;
   box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding-top: 20%;
+    padding-bottom: 20%;
+    height: auto;
+  }
+  
+  .img {
+    max-width: 10rem;
+    max-height: 13rem;
+  }
+
+  .container:hover .box .img {
+    filter: none;
+    opacity: 1;
+    transform: none;
+  }
+  
+  .container:hover .box .img:hover {
+    transform: none;
+    filter: none;
+    box-shadow: none;
+  }
 }

@@ -4,7 +4,7 @@ import classes from './SectionFour.module.css';
 function SectionFour() {
 
   return (
-    <div className={classes.container} id="section-4">
+    <section className={classes.container} id="section-4">
       <div className={classes.box}>
         <div className={classes.text1}>
           <span>Let's talk about</span>
@@ -23,7 +23,7 @@ function SectionFour() {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
