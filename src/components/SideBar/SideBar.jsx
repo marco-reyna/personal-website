@@ -17,7 +17,7 @@ function SideBar(props) {
       </div>
       <div>
         <a href="#section-4">
-          stacks
+          skills
         </a>
       </div>
       <div>
