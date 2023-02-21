@@ -10,9 +10,11 @@ import SectionSix from './components/Section06/SectionSix';
 import SectionContact from './components/SectionContact/SectionContact';
 import Footer from './components/Footer';
 import useScrollingProgress from './hooks/useScrollingProgress';
+import useObserver from './hooks/useObserver';
 
 function App() {
   const scrolling = useScrollingProgress();
+  const obs = useObserver();
 
   return (
     <>

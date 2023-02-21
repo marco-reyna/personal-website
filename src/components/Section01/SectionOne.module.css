@@ -13,6 +13,15 @@
   bottom: 20%;
 }
 
+.nameBox div:first-child {
+  font-size: clamp(1rem, 2vw, 2.5rem);
+  color: #efeeee;
+  font-family: 'Lexend Deca', sans-serif;
+  margin-left: 1.8%;
+  user-select: none;
+  margin-bottom: -5%;
+}
+
 .firstName {
   font-size: clamp(4rem, 15vw, 18rem);
   text-transform: uppercase;
