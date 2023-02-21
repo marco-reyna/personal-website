@@ -13,10 +13,21 @@
   margin: 5% auto;
   padding-left: 2%;
   padding-right: 2%;
+  
+  opacity: 0;
+  transition: all .7s;
+  filter: blur(5px);
+  /* transform: translateX(-100%); */
+}
+
+.showBox {
+  opacity: 1;
+  filter: blur(0px);
+  /* transform: translateX(0%); */
 }
 
 .text {
-  font-size: clamp(1rem, 3.5vw, 3rem);
+  font-size: clamp(1.2rem, 2vw, 2.7rem);
   font-family: 'Rubik Mono One', sans-serif;
   color: #efeeee;
   user-select: none;
@@ -33,7 +44,7 @@
 
 @media (max-width: 767px) {
   .container {
-    height: 100vh;
+    height: 80vh;
   }
 
   .right {

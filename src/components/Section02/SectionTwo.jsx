@@ -1,11 +1,15 @@
 import React from 'react';
 import classes from './SectionTwo.module.css';
+import { useInView } from 'react-intersection-observer';
 
 function SectionTwo() {
+  const { ref, inView } = useInView({
+    threshold: .5,
+  });
 
   return (
     <section className={classes.container}>
-      <div className={classes.box}>
+      <div className={`${classes.box} ${inView ? classes.showBox : ''}`} ref={ref}>
         <p className={`${classes.text} ${classes.right}`}>Hey There, Welcome To My Site.</p>
         <hr className={classes.hr}/>
         <p className={classes.text}>

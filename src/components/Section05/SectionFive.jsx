@@ -20,8 +20,12 @@ import LogoTs from'../../assets/Logos/Ts.png';
 import LogoFigma from'../../assets/Logos/Figma.png';
 import LogoJira from'../../assets/Logos/Jira.png';
 import LogoWebflow from'../../assets/Logos/Webflow.png';
+import { useInView } from 'react-intersection-observer';
 
-function SectionParallax() {
+function SectionFive() {
+  const { ref, inView } = useInView({
+    threshold: 0,
+  });
 
   const logos = [
     {value: LogoVue},
@@ -48,13 +52,18 @@ function SectionParallax() {
 
   return (
     <section className={classes.container}>
-      <div className={classes.box}>
+      <div className={`${classes.box} ${inView ? classes.show : ''}`} ref={ref}>
         {logos.map((logo) => {
-          return <img className={classes.img} src={logo.value} key={logo.value} />
+          return <img 
+            className={classes.img}
+            ref={ref}
+            src={logo.value}
+            key={logo.value}
+          />
         })}
       </div>
     </section>
   )
 }
 
-export default SectionParallax;
+export default SectionFive;

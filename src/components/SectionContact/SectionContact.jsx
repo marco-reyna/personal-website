@@ -3,12 +3,16 @@ import classes from './SectionContact.module.css';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
 import Cv from '../../assets/CV_Marco_Reyna-Frontend_Developer.pdf';
+import { useInView } from 'react-intersection-observer';
 
 function SectionContact() {
+  const { ref, inView } = useInView({
+    threshold: .5,
+  });
 
   return (
     <section className={classes.container} id="section-contact">
-      <div className={classes.box}>
+      <div className={`${classes.box} ${inView ? classes.showBox : ''}`} ref={ref}>
         <p className={classes.text}>Get in touch</p>
         <div>
           <a href="https://www.linkedin.com/in/marcoreynarinaldi/" target="_blank" className={classes.icon}>
