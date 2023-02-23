@@ -1,25 +1,25 @@
 import React from 'react';
 import classes from './SectionFive.module.css';
-import LogoVue from '../../assets/Logos/Vue.png'
-import LogoJs from '../../assets/Logos/Js.png';
-import LogoReact from '../../assets/Logos/React.png';
-import LogoHTML5 from'../../assets/Logos/HTML5.png';
-import LogoCSS3 from'../../assets/Logos/CSS3.png';
-import LogoSass from'../../assets/Logos/Sass.png';
-import LogoGit from'../../assets/Logos/Git.png';
-import LogoGitHub from'../../assets/Logos/GitHub.png';
-import LogoVite from'../../assets/Logos/Vite.svg';
-import LogoNpm from'../../assets/Logos/npm.png';
-import LogoGitLab from'../../assets/Logos/GitLab.png';
-import LogoTailwindCSS from'../../assets/Logos/TailwindCSS.png';
-import LogoMui from'../../assets/Logos/Mui.svg';
-import LogoBootstrap from'../../assets/Logos/Bootstrap.png';
-import LogojQuery from'../../assets/Logos/jQuery.png';
-import LogoPostman from'../../assets/Logos/Postman.png';
-import LogoTs from'../../assets/Logos/Ts.png';
-import LogoFigma from'../../assets/Logos/Figma.png';
-import LogoJira from'../../assets/Logos/Jira.png';
-import LogoWebflow from'../../assets/Logos/Webflow.png';
+import LogoVue from '../../assets/LogosWY/Vue.png'
+import LogoJs from '../../assets/LogosWY/Js.png';
+import LogoReact from '../../assets/LogosWY/React.png';
+import LogoHTML5 from'../../assets/LogosWY/HTML5.png';
+import LogoCSS3 from'../../assets/LogosWY/CSS3.png';
+import LogoSass from'../../assets/LogosWY/Sass.png';
+import LogoGit from'../../assets/LogosWY/Git.png';
+import LogoGitHub from'../../assets/LogosWY/GitHub.png';
+import LogoVite from'../../assets/LogosWY/Vite.png';
+import LogoNpm from'../../assets/LogosWY/npm.png';
+import LogoGitLab from'../../assets/LogosWY/GitLab.png';
+import LogoTailwindCSS from'../../assets/LogosWY/TailwindCSS.png';
+import LogoMui from'../../assets/LogosWY/Mui.png';
+import LogoBootstrap from'../../assets/LogosWY/Bootstrap.png';
+import LogojQuery from'../../assets/LogosWY/jQuery.png';
+import LogoPostman from'../../assets/LogosWY/Postman.png';
+import LogoTs from'../../assets/LogosWY/Ts.png';
+import LogoFigma from'../../assets/LogosWY/Figma.png';
+import LogoJira from'../../assets/LogosWY/Jira.png';
+import LogoWebflow from'../../assets/LogosWY/Webflow.png';
 import { useInView } from 'react-intersection-observer';
 
 function SectionFive() {
@@ -35,8 +35,8 @@ function SectionFive() {
     {value: LogoCSS3},
     {value: LogoSass},
     {value: LogoGit},
-    {value: LogoGitHub},
     {value: LogoVite},
+    {value: LogoGitHub},
     {value: LogoNpm},
     {value: LogoGitLab},
     {value: LogoTailwindCSS},
@@ -44,10 +44,10 @@ function SectionFive() {
     {value: LogoBootstrap},
     {value: LogojQuery},
     {value: LogoPostman},
-    {value: LogoTs},
-    {value: LogoFigma},
     {value: LogoJira},
-    {value: LogoWebflow}
+    {value: LogoTs},
+    {value: LogoWebflow},
+    {value: LogoFigma},
   ];
 
   return (
