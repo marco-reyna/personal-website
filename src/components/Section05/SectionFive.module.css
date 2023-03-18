@@ -36,7 +36,7 @@
   transition: .2s all;
 }
 
-.container:hover .box .img {
+/* .container:hover .box .img {
   filter:blur(3px);
   opacity:.5;
   transform: scale(.98);
@@ -48,7 +48,7 @@
   filter:blur(0px);
   opacity:1;
   box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
-}
+} */
 
 @media (max-width: 767px) {
   .container {

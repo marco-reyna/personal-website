@@ -41,15 +41,35 @@ function SectionSix() {
         </div>
         <div className={classes.box}>
           <div className={classes.title2}>
-            And when I'm not programming I'm:
+            And when I'm not
+            <span>
+              <div className={classes.tooltipContainer} style={{margin: '0 1.5rem'}}>
+                <div className={classes.tooltipTrigger}>👨‍💻</div>
+                <div className={`${classes.tooltip} ${classes.programming}`}>Programming</div>
+              </div>
+            </span> I'm:
           </div>
           <div className={classes.hobbies}>
-            <span>Producing music</span>
-            <span>DJing</span>
-            <span>Practicing Jiu-Jitsu</span>
-            <span>Snowboarding</span>
-            <span>Sailing</span>
-            <span>or just trying new activities.</span>
+            <div className={classes.tooltipContainer}>
+              <div className={classes.tooltipTrigger}>🎹</div>
+              <div className={`${classes.tooltip} ${classes.producing}`}>Producing music</div>
+            </div>
+            <div className={classes.tooltipContainer}>
+              <div className={classes.tooltipTrigger}>🎧</div>
+              <div className={`${classes.tooltip} ${classes.djing}`}>DJing</div>
+            </div>
+            <div className={classes.tooltipContainer}>
+              <div className={classes.tooltipTrigger}>🤼‍♂️</div>
+              <div className={`${classes.tooltip} ${classes.jiuJitsu}`}>Training Jiu-Jitsu</div>
+            </div>
+            <div className={classes.tooltipContainer}>
+              <div className={classes.tooltipTrigger}>🏂</div>
+              <div className={`${classes.tooltip} ${classes.snowboarding}`}>Snowboarding</div>
+            </div>
+            <div className={classes.tooltipContainer}>
+              <div className={classes.tooltipTrigger}>⛵</div>
+              <div className={`${classes.tooltip} ${classes.sailing}`}>Sailing</div>
+            </div>
           </div> 
         </div>
       </div>

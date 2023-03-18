@@ -19,7 +19,7 @@ import LogoPostman from'../../assets/Logos/Postman.png';
 import LogoTs from'../../assets/Logos/Ts.png';
 import LogoFigma from'../../assets/Logos/Figma.png';
 import LogoJira from'../../assets/Logos/Jira.png';
-import LogoWebflow from'../../assets/Logos/Webflow.png';
+import LogoCypress from'../../assets/Logos/Cypress.svg';
 import { useInView } from 'react-intersection-observer';
 
 function SectionFive() {
@@ -35,7 +35,7 @@ function SectionFive() {
     {value: LogoCSS3},
     {value: LogoSass},
     {value: LogoGit},
-    {value: LogoVite},
+    {value: LogoTs},
     {value: LogoGitHub},
     {value: LogoNpm},
     {value: LogoGitLab},
@@ -44,10 +44,10 @@ function SectionFive() {
     {value: LogoBootstrap},
     {value: LogojQuery},
     {value: LogoPostman},
-    {value: LogoTs},
+    {value: LogoVite},
     {value: LogoJira},
     {value: LogoFigma},
-    {value: LogoWebflow},
+    {value: LogoCypress},
   ];
 
   return (

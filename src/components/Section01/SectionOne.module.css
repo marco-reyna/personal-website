@@ -42,7 +42,7 @@
   -webkit-background-clip: text;
   margin-bottom: -4%;
 
-  background-image: url("../../assets/1-text-bg.jpg");
+  background-image: url("../../assets/sea-1.jpg");
   background-size: 130%;
 
   animation: bg-animation 70s cubic-bezier(0.3,0,0.7,1) infinite;

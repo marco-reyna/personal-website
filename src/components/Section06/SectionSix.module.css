@@ -61,36 +61,78 @@
   user-select: none;
   padding-bottom: 2rem;
   text-align: center;
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.title2 span .programming {
+  font-size: clamp(1.5rem, 2.8vw, 2.5rem);
 }
 
 .hobbies {
-  text-align: center;
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+  gap: 1rem;
 }
 
-
-.hobbies span {
-  color: #13131321;
-  font-size: clamp(1.2rem, 2vw, 2.5rem);
-  background-color: #ffd230;
+.tooltipContainer {
   font-family: 'Lexend Deca', sans-serif;
   margin-right: 12px;
-  transition: .2s all;
+  /* transition: .2s all; */
   user-select: none;
+  position: relative;
 }
 
-.container:hover .hobbies span {
-  filter: blur(3px);
-  opacity: .5;
-  transform: scale(.98);
-  box-shadow: none;
+.tooltipTrigger {
+  font-size: clamp(1.8rem, 2.8vw, 2.5rem);
 }
 
-.container:hover .hobbies span:hover{
-  color: #131313;
-  transform: scale(1);
-  filter: blur(0px);
-  opacity: 1;
-  box-shadow: 0 8px 20px 0px rgba(0,0,0,0.125);
+.tooltip {
+  padding: 18px 32px;
+  background: #fff;
+  position: absolute;
+  width: max-content;
+  border-radius: 5px;
+  text-align: center;
+  filter: drop-shadow(0 3px 5px #ccc);
+  line-height: 1.5;
+  display: none;
+}
+
+.programming {
+  bottom: 112%;
+  right: -415%;
+}
+
+.producing {
+  bottom: 112%;
+  right: -250%;
+}
+
+.djing {
+  bottom: 112%;
+  right: -115%;
+}
+
+.jiuJitsu {
+  bottom: 112%;
+  right: -270%;
+}
+
+.snowboarding {
+  bottom: 112%;
+  right: -230%;
+}
+
+.sailing {
+  bottom: 112%;
+  right: -150%;
+}
+
+.tooltipTrigger:hover + .tooltip {
+  display: block;
 }
 
 @media (max-width: 767px) {
