@@ -29,7 +29,7 @@
 }
 
 .title {
-  font-size: clamp(1.1rem, 3.5vw, 3rem);
+  font-size: clamp(1rem, 3.5vw, 3rem);
   font-family: 'Rubik Mono One', sans-serif;
   color: #131313;
   user-select: none;
@@ -66,10 +66,6 @@
   margin: 0 auto;
 }
 
-.title2 span .programming {
-  font-size: clamp(1.5rem, 2.8vw, 2.5rem);
-}
-
 .hobbies {
   display: flex;
   width: fit-content;
@@ -86,7 +82,7 @@
 }
 
 .tooltipTrigger {
-  font-size: clamp(1.8rem, 2.8vw, 2.5rem);
+  font-size: clamp(1.5rem, 2vw, 2.7rem);
 }
 
 .tooltip {
@@ -99,16 +95,17 @@
   filter: drop-shadow(0 3px 5px #ccc);
   line-height: 1.5;
   display: none;
+  font-size: clamp(1.2rem, 2vw, 2rem);
 }
 
 .programming {
   bottom: 112%;
-  right: -415%;
+  right: -300%;
 }
 
 .producing {
   bottom: 112%;
-  right: -250%;
+  right: -455%;
 }
 
 .djing {
@@ -118,12 +115,12 @@
 
 .jiuJitsu {
   bottom: 112%;
-  right: -270%;
+  right: -370%;
 }
 
 .snowboarding {
   bottom: 112%;
-  right: -230%;
+  right: -300%;
 }
 
 .sailing {
@@ -152,6 +149,9 @@
 
   .box p {
     margin-bottom: 2rem;
+  }
+  .tooltip {
+    padding: 12px 18px;
   }
 
 }
