@@ -11,6 +11,18 @@
   position: absolute;
   left: 10%;
   bottom: 20%;
+
+  opacity: 0;
+  transition: all .5s;
+  filter: blur(5px);
+  transform: translateX(-70%);
+}
+
+.showNameBox {
+  opacity: 1;
+  transition: all .5s;
+  filter: blur(0px);
+  transform: translateX(0%);
 }
 
 .nameBox div:first-child {
@@ -72,6 +84,20 @@
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
+}
+
+.hideIcon {
+  opacity: 0;
+  transition: all .3s;
+  filter: blur(5px);
+  transform: translateY(-100%);
+}
+
+.showIcon {
+  opacity: 1;
+  transition: all .3s;
+  filter: blur(0px);
+  transform: translateY(0%);
 }
 
 @keyframes bounce {

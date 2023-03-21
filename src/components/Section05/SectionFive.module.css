@@ -36,6 +36,10 @@
   transition: .2s all;
 }
 
+.img:hover {
+  transform: translate(-20px, -40px) rotate(-15deg) scale(1.4);
+}
+
 /* .container:hover .box .img {
   filter:blur(3px);
   opacity:.5;
