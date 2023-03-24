@@ -6,6 +6,7 @@
 body {
   background: #131313;
   background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+  cursor: none;
 }
 html {
 	scroll-behavior: smooth;

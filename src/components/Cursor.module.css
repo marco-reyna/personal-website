@@ -1,0 +1,25 @@
+.cursor {
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid #efeeee;
+  mix-blend-mode: difference;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 10000;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: all 0.3s ease;
+  transition-property: background, transform;
+}
+
+.cursorGrow {
+  transform: scale(2.5);
+  background-color: #efeeee;
+  z-index: 1;
+}
+
+@media (max-width: 767px) {
+  .cursor {
+    display: none;
+  }
+}

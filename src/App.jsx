@@ -10,6 +10,7 @@ import SectionSix from "./components/Section06/SectionSix";
 import SectionContact from "./components/SectionContact/SectionContact";
 import Footer from "./components/Footer";
 import useScrollingProgress from "./hooks/useScrollingProgress";
+import Cursor from "./components/Cursor";
 
 function App() {
   const scrolling = useScrollingProgress();
@@ -18,6 +19,7 @@ function App() {
     <>
       <ProgressBar scrolling={scrolling + "%"} />
       <SideBar scrolling={scrolling} />
+      <Cursor />
       <SectionOne scrolling={scrolling} />
       <SectionTwo />
       <SectionThree />

@@ -22,7 +22,7 @@
 }
 
 .container a:hover {
-  cursor: pointer;
+  cursor: none;
   /* color: #ffd230; */
   text-transform: uppercase;
 }

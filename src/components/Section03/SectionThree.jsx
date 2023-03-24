@@ -25,7 +25,8 @@ function SectionThree() {
             <p className={classes.text}>
               I've worked with
               <span>
-                Vue for 3 years and some months ago switched to React.
+                {" "}
+                Vue for 3 years and started using React some months ago.{" "}
               </span>
               In the future I want to deepen my knowledge in backend to become a
               Full Stack Developer.
