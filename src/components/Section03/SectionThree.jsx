@@ -26,10 +26,11 @@ function SectionThree() {
               I've worked with
               <span>
                 {" "}
-                Vue for 3 years and started using React some months ago.{" "}
+                Vue and common Frontend stack for 3 years. Some months ago I
+                focused more on React and I am currently learning Python{" "}
               </span>
-              In the future I want to deepen my knowledge in backend to become a
-              Full Stack Developer.
+              As I want to deepen my knowledge in backend to become a Full Stack
+              Developer.
             </p>
           </div>
         </div>
